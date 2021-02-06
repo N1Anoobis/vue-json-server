@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 // import axios from "axios";
 import Customers from "./components/Customers";
 import About from "./components/About";
+import Add from "./components/Add";
 
 Vue.use(VueRouter);
 
@@ -12,6 +13,7 @@ const router = new VueRouter({
   routes: [
     { path: "/", component: Customers },
     { path: "/about", component: About },
+    { path: "/add", component: Add },
   ],
 });
 
@@ -29,12 +31,17 @@ new Vue({
     </button>
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <li class="nav-item active">
+      <ul class="navbar-nav">
+        <li class="nav-item">
           <router-link class="nav-link" to="/">Home</router-link>
         </li>
         <li class="nav-item">
            <router-link class="nav-link" to="/about">About</router-link>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <router-link class="nav-link" to="/add">Add Customer</router-link>
         </li>
       </ul>
     </div>
@@ -44,3 +51,5 @@ new Vue({
   </div>
   `,
 }).$mount("#app");
+
+
