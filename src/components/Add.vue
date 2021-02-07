@@ -1,5 +1,8 @@
 <template>
   <div class="add container">
+    <br />
+    <br />
+    <br />
     <!-- <Alert v-if="alert" v-bind:message="alert" /> -->
     <h1 class="page-header">Add Customer</h1>
     <form v-on:submit="addCustomer">
@@ -104,7 +107,6 @@ export default {
         };
         axios({
           method: "post",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
           url: "http://localhost:3000/customers",
           data: newCustomer,
         }).then(function(response) {
@@ -112,7 +114,7 @@ export default {
         });
         this.$router.push({
           path: "/",
-          //   query: { alert: "Customer Added" },
+            query: { alert: "Customer Added" },
         });
 
         e.preventDefault();
