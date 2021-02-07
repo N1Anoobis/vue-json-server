@@ -5,6 +5,12 @@
     <br />
     <Alert v-if="alert" v-bind:message="alert" :key="alert" />
     <h1 class="page-header">Menage Customers</h1>
+    <input
+      class="form-control"
+      placeholder="Enter Name"
+      v-model="filterInput"
+    />
+    <br />
     <table class="table table-striped">
       <thead>
         <tr>
@@ -15,7 +21,10 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="customer in customers" :key="customer.id">
+        <tr
+          v-for="customer in filterBy(customers, filterInput)"
+          :key="customer.id"
+        >
           <td>{{ customer.name }}</td>
           <td>{{ customer.email }}</td>
           <td>{{ customer.phone }}</td>
@@ -41,6 +50,7 @@ export default {
     return {
       customers: [],
       alert: "",
+      filterInput: "",
     };
   },
   methods: {
@@ -53,6 +63,12 @@ export default {
         .catch((error) => {
           console.log(error);
         });
+    },
+    filterBy(list, value) {
+      value = value.charAt(0).toUpperCase() + value.slice(1);
+      return list.filter(function(customer) {
+        return customer.name.indexOf(value) > -1;
+      });
     },
   },
   created: function() {

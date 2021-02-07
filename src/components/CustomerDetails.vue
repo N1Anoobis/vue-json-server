@@ -58,7 +58,6 @@ export default {
         });
     },
     deleteCustomer(id) {
-      console.log(id);
       axios.delete(`http://localhost:3000/customers/${id}`).then(() => {
         this.$router.push({ path: "/", query: { alert: "Customer Deleted" } });
       });
