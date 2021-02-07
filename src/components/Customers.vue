@@ -3,7 +3,7 @@
     <br />
     <br />
     <br />
-    <Alert v-if="alert" v-bind:message="alert" />
+    <Alert v-if="alert" v-bind:message="alert" :key="alert" />
     <h1 class="page-header">Menage Customers</h1>
     <table class="table table-striped">
       <thead>
@@ -62,9 +62,14 @@ export default {
     this.fetchCustomers();
   },
   updated: function() {
-    if (this.alert === "Customer Added" || this.alert === "Customer Deleted") {
-      this.fetchCustomers();
-      this.alert = "";
+    if (
+      this.alert === "Customer Added" ||
+      this.alert === "Customer Deleted" ||
+      this.alert === "Customer Updated"
+    ) {
+      setTimeout(() => {
+        (this.alert = ""), this.fetchCustomers();
+      }, 2000);
     }
   },
   components: {

@@ -17,18 +17,22 @@
     </h1>
     <ul class="list-group">
       <li class="list-group-item">
+        <label>Number:</label>
         <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
         {{ customer.phone }}
       </li>
       <li class="list-group-item">
+        <label>Email:</label>
         <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
         {{ customer.email }}
       </li>
     </ul>
 
     <ul class="list-group">
-      <li class="list-group-item">{{ customer.address }}</li>
-      <li class="list-group-item">{{ customer.age }}</li>
+      <li class="list-group-item">
+        <label>Address:</label> {{ customer.address }}
+      </li>
+      <li class="list-group-item"><label>Age:</label> {{ customer.age }}</li>
     </ul>
   </div>
 </template>

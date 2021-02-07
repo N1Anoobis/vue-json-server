@@ -1,11 +1,11 @@
 <template>
-  <div class="add container">
+  <div class="edit container">
     <br />
     <br />
     <br />
     <Alert v-if="alert" v-bind:message="alert" />
-    <h1 class="page-header">Add Customer</h1>
-    <form v-on:submit="addCustomer">
+    <h1 class="page-header">Edit Customer</h1>
+    <form v-on:submit="updateCustomer">
       <div class="well">
         <h4>Customer Info</h4>
         <div class="form-group">
@@ -79,7 +79,7 @@
 import Alert from "./Alert";
 import axios from "axios";
 export default {
-  name: "add",
+  name: "edit",
   data() {
     return {
       customer: {},
@@ -87,7 +87,12 @@ export default {
     };
   },
   methods: {
-    addCustomer(e) {
+    fetchCustomer(id) {
+      axios.get(`http://localhost:3000/customers/${id}`).then((response) => {
+        this.customer = response.data;
+      });
+    },
+    updateCustomer(e) {
       if (
         !this.customer.name ||
         !this.customer.address ||
@@ -95,8 +100,7 @@ export default {
       ) {
         this.alert = "Please fill in all required fields";
       } else {
-        let newCustomer = {
-          id: Math.floor(Math.random() * (10000000 - 1 + 1)) + 1,
+        let updCustomer = {
           name: this.customer.name,
           gender: this.customer.gender,
           phone: this.customer.phone,
@@ -104,22 +108,24 @@ export default {
           address: this.customer.address,
           age: this.customer.age,
         };
-        axios({
-          method: "post",
-          url: "http://localhost:3000/customers",
-          data: newCustomer,
-        }).then(function(response) {
-          console.log(response.data);
-        });
-        this.$router.push({
-          path: "/",
-          query: { alert: "Customer Added" },
-        });
-        this.alert = "";
+        axios
+          .put(
+            `http://localhost:3000/customers/${this.$route.params.id}`,
+            updCustomer
+          )
+          .then(() => {
+            this.$router.push({
+              path: "/",
+              query: { alert: "Customer Updated" },
+            });
+          });
         e.preventDefault();
       }
       e.preventDefault();
     },
+  },
+  created: function() {
+    this.fetchCustomer(this.$route.params.id);
   },
   components: {
     Alert,
