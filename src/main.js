@@ -4,6 +4,7 @@ import VueRouter from "vue-router";
 import Customers from "./components/Customers";
 import About from "./components/About";
 import Add from "./components/Add";
+import CustomerDetails from "./components/CustomerDetails";
 
 Vue.use(VueRouter);
 
@@ -14,6 +15,7 @@ const router = new VueRouter({
     { path: "/", component: Customers },
     { path: "/about", component: About },
     { path: "/add", component: Add },
+    { path: "/customer/:id", component: CustomerDetails },
   ],
 });
 
@@ -51,5 +53,3 @@ new Vue({
   </div>
   `,
 }).$mount("#app");
-
-

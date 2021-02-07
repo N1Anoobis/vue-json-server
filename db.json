@@ -2,7 +2,6 @@
   "customers": [
     {
       "id": "601e73f76f167a02b274a342",
-      "picture": "http://placehold.it/32x32",
       "age": "21",
       "name": "Carey Garner",
       "gender": "male",
@@ -12,7 +11,6 @@
     },
     {
       "id": "601e73f78602cf245b78e3cc",
-      "picture": "http://placehold.it/32x32",
       "age": "36",
       "name": "Hayden Ruiz",
       "gender": "male",
@@ -22,7 +20,6 @@
     },
     {
       "id": "601e73f76477ae7df71bc9c8",
-      "picture": "http://placehold.it/32x32",
       "age": "36",
       "name": "Becky Ingram",
       "gender": "female",
@@ -32,7 +29,6 @@
     },
     {
       "id": "601e73f7f450faff63e9dd5c",
-      "picture": "http://placehold.it/32x32",
       "age": "36",
       "name": "Regina Nichols",
       "gender": "female",
@@ -42,7 +38,6 @@
     },
     {
       "id": "601e73f7f39282b885d16a73",
-      "picture": "http://placehold.it/32x32",
       "age": "36",
       "name": "Eula Carlson",
       "gender": "female",
@@ -52,7 +47,6 @@
     },
     {
       "id": "601e73f75c40d6e0d9daa898",
-      "picture": "http://placehold.it/32x32",
       "age": "36",
       "name": "Buck Pollard",
       "gender": "male",
@@ -62,7 +56,6 @@
     },
     {
       "id": "601e73f7063f046bebcba1e8",
-      "picture": "http://placehold.it/32x32",
       "age": "26",
       "name": "Concetta Henderson",
       "gender": "female",
@@ -72,7 +65,6 @@
     },
     {
       "id": "601e73f75c56f9e19d8202e3",
-      "picture": "http://placehold.it/32x32",
       "age": "25",
       "name": "Latasha Waters",
       "gender": "female",
@@ -82,7 +74,6 @@
     },
     {
       "id": "601e73f7062f2717ec1442ab",
-      "picture": "http://placehold.it/32x32",
       "age": "25",
       "name": "Rodriquez Hays",
       "gender": "male",
@@ -92,7 +83,6 @@
     },
     {
       "id": "601e73f773d7cbff5f489307",
-      "picture": "http://placehold.it/32x32",
       "age": "26",
       "name": "Kelley Harper",
       "gender": "male",
@@ -102,7 +92,6 @@
     },
     {
       "id": "601e73f71cf9b75455bffe40",
-      "picture": "http://placehold.it/32x32",
       "age": "22",
       "name": "Alexander Lambert",
       "gender": "male",
@@ -112,7 +101,6 @@
     },
     {
       "id": "601e73f7150499615b779f48",
-      "picture": "http://placehold.it/32x32",
       "age": "25",
       "name": "Whitaker Gomez",
       "gender": "male",
@@ -122,7 +110,6 @@
     },
     {
       "id": "601e73f73e58a04fc77f616e",
-      "picture": "http://placehold.it/32x32",
       "age": "25",
       "name": "Crane Fernandez",
       "gender": "male",
@@ -132,7 +119,6 @@
     },
     {
       "id": "601e73f744819e2c1e34498d",
-      "picture": "http://placehold.it/32x32",
       "age": "20",
       "name": "Aguilar Nguyen",
       "gender": "male",
@@ -142,7 +128,6 @@
     },
     {
       "id": "601e73f714d75995e5aa3843",
-      "picture": "http://placehold.it/32x32",
       "age": "32",
       "name": "Lott Walton",
       "gender": "male",
@@ -152,7 +137,6 @@
     },
     {
       "id": "601e73f7ee816fed7565d5f6",
-      "picture": "http://placehold.it/32x32",
       "age": "25",
       "name": "Christine Mcleod",
       "gender": "female",
@@ -162,7 +146,6 @@
     },
     {
       "id": "601e73f7cef730f0b10ab582",
-      "picture": "http://placehold.it/32x32",
       "age": "28",
       "name": "Susan Hull",
       "gender": "female",
@@ -172,7 +155,6 @@
     },
     {
       "id": "601e73f7b0a7a8883ba86a2b",
-      "picture": "http://placehold.it/32x32",
       "age": "32",
       "name": "Maxwell Hunter",
       "gender": "male",
@@ -182,7 +164,6 @@
     },
     {
       "id": "601e73f7df4fa59712fa4b19",
-      "picture": "http://placehold.it/32x32",
       "age": "20",
       "name": "Frieda Mooney",
       "gender": "female",
@@ -192,7 +173,6 @@
     },
     {
       "id": "601e73f76d069829e4d87286",
-      "picture": "http://placehold.it/32x32",
       "age": "27",
       "name": "Case Tillman",
       "gender": "male",
@@ -202,7 +182,6 @@
     },
     {
       "id": "601e73f74ce37d5cbfabae4a",
-      "picture": "http://placehold.it/32x32",
       "age": "37",
       "name": "Landry Adams",
       "gender": "male",
@@ -212,7 +191,6 @@
     },
     {
       "id": "601e73f7e9c7d51cc421808e",
-      "picture": "http://placehold.it/32x32",
       "age": "37",
       "name": "Natalia Stein",
       "gender": "female",
@@ -222,7 +200,6 @@
     },
     {
       "id": "601e73f7d66d223de0dfdc4d",
-      "picture": "http://placehold.it/32x32",
       "age": "25",
       "name": "Baldwin Clay",
       "gender": "male",
@@ -232,7 +209,6 @@
     },
     {
       "id": "601e73f7efba10ac5becaf5c",
-      "picture": "http://placehold.it/32x32",
       "age": "22",
       "name": "Madelyn Osborne",
       "gender": "female",
@@ -242,7 +218,6 @@
     },
     {
       "id": "601e73f760cef4bbf5039c99",
-      "picture": "http://placehold.it/32x32",
       "age": "34",
       "name": "Amy Stephens",
       "gender": "female",
@@ -252,7 +227,6 @@
     },
     {
       "id": "601e73f79a25d1132e0d15a1",
-      "picture": "http://placehold.it/32x32",
       "age": "35",
       "name": "Josefa Short",
       "gender": "female",
@@ -262,7 +236,6 @@
     },
     {
       "id": "601e73f702efd1f9a8e9211a",
-      "picture": "http://placehold.it/32x32",
       "age": "33",
       "name": "Combs Sykes",
       "gender": "male",
@@ -272,7 +245,6 @@
     },
     {
       "id": "601e73f7ef3914f380ef3ed3",
-      "picture": "http://placehold.it/32x32",
       "age": "20",
       "name": "Burch Keller",
       "gender": "male",
@@ -282,7 +254,6 @@
     },
     {
       "id": "601e73f7fe91420715205685",
-      "picture": "http://placehold.it/32x32",
       "age": "39",
       "name": "Myrtle Hester",
       "gender": "female",
@@ -292,7 +263,6 @@
     },
     {
       "id": "601e73f7bfa10bd18cb1c335",
-      "picture": "http://placehold.it/32x32",
       "age": "22",
       "name": "Rosanna Singleton",
       "gender": "female",
@@ -302,7 +272,6 @@
     },
     {
       "id": "601e73f7d20a891090730442",
-      "picture": "http://placehold.it/32x32",
       "age": "39",
       "name": "Jarvis Crane",
       "gender": "male",
@@ -312,7 +281,6 @@
     },
     {
       "id": "601e73f7a047fd6be7b48458",
-      "picture": "http://placehold.it/32x32",
       "age": "28",
       "name": "Effie Sosa",
       "gender": "female",
@@ -322,7 +290,6 @@
     },
     {
       "id": "601e73f79522e7d2b9913ea4",
-      "picture": "http://placehold.it/32x32",
       "age": "28",
       "name": "Faith Horne",
       "gender": "female",
@@ -332,7 +299,6 @@
     },
     {
       "id": "601e73f73c01aa867122ea5b",
-      "picture": "http://placehold.it/32x32",
       "age": "20",
       "name": "Michael Horton",
       "gender": "male",
@@ -342,7 +308,6 @@
     },
     {
       "id": "601e73f797af2f09464f125f",
-      "picture": "http://placehold.it/32x32",
       "age": "27",
       "name": "Spencer Allison",
       "gender": "male",
@@ -352,7 +317,6 @@
     },
     {
       "id": "601e73f7efe00395be6fd70f",
-      "picture": "http://placehold.it/32x32",
       "age": "23",
       "name": "Williams Howe",
       "gender": "male",
@@ -362,7 +326,6 @@
     },
     {
       "id": "601e73f7046131ecb79166b6",
-      "picture": "http://placehold.it/32x32",
       "age": "20",
       "name": "Le Snyder",
       "gender": "male",
@@ -372,55 +335,12 @@
     },
     {
       "id": "601e73f7e87bef55048b2bce",
-      "picture": "http://placehold.it/32x32",
       "age": "31",
       "name": "Leta Delaney",
       "gender": "female",
       "email": "letadelaney@futuris.com",
       "phone": "+1 (913) 407-3422",
       "address": "249 Highlawn Avenue, Detroit, Florida, 4120"
-    },
-    {
-      "id": 9777275,
-      "name": "2222222222222222222222",
-      "email": "22222222222222222222222222",
-      "address": "22222222222222222222222",
-      "picture": null
-    },
-    {
-      "id": 5084595,
-      "name": "adam",
-      "email": "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
-      "address": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "picture": null
-    },
-    {
-      "id": 8016001,
-      "name": "4444444444444444",
-      "email": "4444444444444444444444",
-      "address": "4444444444444444444444",
-      "picture": null
-    },
-    {
-      "id": 3504276,
-      "name": "66666666666666666",
-      "email": "6666666666666666",
-      "address": "666666666666666666",
-      "picture": null
-    },
-    {
-      "id": 3140634,
-      "name": "11111111111111",
-      "email": "111111111111111",
-      "address": "11111111111111111",
-      "picture": null
-    },
-    {
-      "id": 4878215,
-      "name": "8888888888888888",
-      "email": "8888888888888888888888",
-      "address": "8888888888888888888888888888",
-      "picture": null
     }
   ]
 }

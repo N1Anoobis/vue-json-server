@@ -21,7 +21,7 @@
           <td>{{ customer.phone }}</td>
           <td>
             <router-link
-              class="btn btn-default"
+              class="btn btn btn-secondary"
               v-bind:to="'/customer/' + customer.id"
               >View</router-link
             >
@@ -62,7 +62,7 @@ export default {
     this.fetchCustomers();
   },
   updated: function() {
-    if (this.alert === "Customer Added") {
+    if (this.alert === "Customer Added" || this.alert === "Customer Deleted") {
       this.fetchCustomers();
       this.alert = "";
     }

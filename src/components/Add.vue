@@ -103,7 +103,6 @@ export default {
           email: this.customer.email,
           address: this.customer.address,
           age: this.customer.age,
-          picture: null,
         };
         axios({
           method: "post",
