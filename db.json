@@ -1,22 +1,13 @@
 {
   "customers": [
     {
-      "name": "Carey Garner",
-      "gender": "male",
-      "phone": "+1 (852) 547-2661",
-      "email": "careygarner@futuris.com",
-      "address": "439 Stone Avenue, Lopezo, New York, 9549",
-      "age": "25",
-      "id": "601e73f76f167a02b274a342"
-    },
-    {
-      "id": "601e73f78602cf245b78e3cc",
-      "age": "36",
       "name": "Hayden Ruiz",
       "gender": "male",
-      "email": "haydenruiz@futuris.com",
       "phone": "+1 (905) 482-3510",
-      "address": "804 Miller Place, Tuskahoma, Marshall Islands, 5328"
+      "email": "haydenruiz@futuris.com",
+      "address": "804 Miller Place, Tuskahoma, Marshall Islands, 5328",
+      "age": "32",
+      "id": "601e73f78602cf245b78e3cc"
     },
     {
       "id": "601e73f76477ae7df71bc9c8",
@@ -341,12 +332,6 @@
       "email": "letadelaney@futuris.com",
       "phone": "+1 (913) 407-3422",
       "address": "249 Highlawn Avenue, Detroit, Florida, 4120"
-    },
-    {
-      "id": 5913027,
-      "name": "222222",
-      "email": "2222222222",
-      "address": "22222222222"
     }
   ]
 }

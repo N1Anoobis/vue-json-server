@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-// import axios from "axios";
+import { ValidationProvider } from "vee-validate/dist/vee-validate.full.esm";
+import { ValidationObserver } from "vee-validate";
 import Customers from "./components/Customers";
 import About from "./components/About";
 import Add from "./components/Add";
@@ -8,6 +9,8 @@ import CustomerDetails from "./components/CustomerDetails";
 import Edit from "./components/Edit";
 
 Vue.use(VueRouter);
+Vue.component("ValidationProvider", ValidationProvider);
+Vue.component("ValidationObserver", ValidationObserver);
 
 const router = new VueRouter({
   mode: "history",
